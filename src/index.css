@@ -1,0 +1,19 @@
+body {
+  background-color: #000;
+}
+
+textarea {
+  outline: 1px solid #6e6e6e;
+  transition: border-color 1s ease;
+  transition: border-width 0.1s ease;
+}
+
+textarea:focus {
+  border-color: #000; 
+  border-width: 4px;
+}
+
+button:hover {
+  border: 1px solid;
+}
+
