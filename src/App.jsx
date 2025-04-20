@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css'
+import './App.css';
 
 const hooksData = [
   {
@@ -50,7 +50,7 @@ const hooksData = [
 
 const App = () => {
   return (
-    <div style={{ fontFamily: 'monospace', background: '#111', color: '#0f0', minHeight: '100vh', padding: '2rem',borderRadius:'10px', textAlign:'left' }}>
+    <div style={{ fontFamily: 'monospace', background: '#111', color: '#0f0', minHeight: '100vh', padding: '2rem', borderRadius: '10px', textAlign: 'left' }}>
       <h1 style={{ textAlign: 'center', fontSize: '2rem', marginBottom: '2rem' }}>🕹️ React Hooks Docs</h1>
       <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '1rem' }}>
         {hooksData.map((hook, index) => (
@@ -78,7 +78,7 @@ const App = () => {
                 borderRadius: '5px',
                 overflowX: 'auto',
                 color: '#fff',
-                fontSize: '0.85rem',
+                fontSize: '0.85rem'
               }}
             >
               <code>{hook.example}</code>
@@ -86,6 +86,10 @@ const App = () => {
           </div>
         ))}
       </div>
+
+      <footer style={{ marginTop: '3rem', borderTop: '1px solid #0f0', paddingTop: '1rem', textAlign: 'center', color: '#aaa', fontSize: '0.85rem' }}>
+        © 2025 Ritanjit Das. All rights reserved.
+      </footer>
     </div>
   );
 };
